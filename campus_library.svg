@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500">
+  <rect width="100%" height="100%" fill="#f3f6fb"/>
+  <g fill="#1f3c88">
+    <rect x="60" y="140" width="680" height="260" rx="12" />
+    <rect x="120" y="180" width="560" height="200" fill="#fff" />
+    <text x="140" y="230" font-size="28" font-family="Arial" fill="#1f3c88">Great Library of Northshire</text>
+    <text x="140" y="270" font-size="16" font-family="Arial" fill="#1f3c88">Reading rooms • Archives • Study spaces</text>
+  </g>
+</svg>

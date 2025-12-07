@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Windsmere University</title>
+  <meta name="description" content="Windsmere University — educational training website.">
+  <style>
+    :root{--blue:#1f3c88;--grey:#bfc4cb;--white:#fff}
+    body{font-family:Inter, system-ui, Arial, sans-serif; margin:0; color:#222; line-height:1.5}
+    header{background:linear-gradient(90deg,var(--blue),#3558a6);color:var(--white);padding:40px 20px}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    h1{margin:0;font-size:32px}
+    nav{margin-top:12px}
+    nav a{color:rgba(255,255,255,0.95);margin-right:12px;text-decoration:none}
+    .hero{display:flex;gap:24px;align-items:center}
+    .hero .text{flex:1}
+    .cta{background:var(--white);color:var(--blue);padding:10px 16px;border-radius:8px;text-decoration:none}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:24px}
+    .card{border:1px solid #eee;padding:16px;border-radius:8px;background:#fff}
+    footer{margin-top:40px;padding:18px 24px;background:#f6f7f9;font-size:13px}
+    .disclaimer{color:#9a9a9a;font-size:11px;text-align:right}
+    .campus-img{width:100%;height:auto;border-radius:8px;border:1px solid #e6e6e6;background:#fafafa;padding:8px}
+    table{border-collapse:collapse;width:100%}
+    th,td{border:1px solid #eee;padding:8px;text-align:left}
+    .minor{font-size:13px;color:#666}
+    @media (max-width:700px){h1{font-size:24px}.hero{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <div>
+          <h1>Windsmere University</h1>
+          <div style="margin-top:6px">Per Scientiam, Per Humanitatem</div>
+        </div>
+        <div style="text-align:right;min-width:220px">
+          <div>Admissions: +44 7399 622256</div>
+          <a class="cta" href="#apply">Apply</a>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#research">Research</a>
+        <a href="#campus">Campus</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#international">International</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="hero" style="margin-top:18px">
+      <div class="text card">
+        <h2>Welcome to Windsmere University</h2>
+        <p>Windsmere University is an educational training example used for teaching website-building, branding, and higher-education design in classroom settings. The content is for instructional use only; see the footer for the site note.</p>
+        <p class="minor">Windsmere combines historic campus spaces with modern research labs and an emphasis on emerging technologies and sustainability.</p>
+      </div>
+      <div style="min-width:260px" class="card">
+        <h3>Quick Facts</h3>
+        <ul>
+          <li>Founded: 1896</li>
+          <li>Student body: 18,000 (illustrative)</li>
+          <li>Location: Windsmere, Northshire (illustrative)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="campus" style="margin-top:28px">
+      <h2>Campus & Facilities</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Central Quads & Library</h3>
+          <img src="campus_library.svg" alt="Library" class="campus-img">
+          <p class="minor">Grand reading rooms, 24/7 study spaces, and archival special collections.</p>
+        </div>
+        <div class="card">
+          <h3>Innovation Hub</h3>
+          <img src="campus_innovation.svg" alt="Innovation Hub" class="campus-img">
+          <p class="minor">Incubator spaces for student startups and industry partnerships.</p>
+        </div>
+        <div class="card">
+          <h3>Lakeside Student Village</h3>
+          <img src="campus_lakeside.svg" alt="Lakeside" class="campus-img">
+          <p class="minor">Student housing, cafés, and sports facilities by the Wynd.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" style="margin-top:28px">
+      <h2>Courses & Programmes (selected)</h2>
+      <p>Windsmere emphasises both traditional disciplines and rare, cutting-edge programmes that reflect industry needs.</p>
+      <div class="grid">
+        <div class="card"><h3>BSc Computer Science (Hons)</h3><p>Core: Programming, Data Structures, Systems, AI Foundations.</p></div>
+        <div class="card"><h3>BSc AI & Ethics</h3><p>Interdisciplinary study of machine learning, fairness, and governance.</p></div>
+        <div class="card"><h3>MSc Quantum Computing</h3><p>Quantum algorithms, error correction, and practical applications.</p></div>
+        <div class="card"><h3>MSc Autonomous Systems & Robotics</h3><p>Perception, control, human-robot interaction.</p></div>
+        <div class="card"><h3>BSc Cybersecurity & Digital Forensics</h3><p>Network security, malware analysis, incident response.</p></div>
+        <div class="card"><h3>BSc Synthetic Biology</h3><p>Biodesign, genetic circuits, lab safety & ethics.</p></div>
+        <div class="card"><h3>MSc Human-Robot Interaction</h3><p>UX for robotics, social robots, evaluation methods.</p></div>
+        <div class="card"><h3>Diploma: Edge & Cloud Computing</h3><p>Distributed systems, edge orchestration, real-time data.</p></div>
+        <div class="card"><h3>Certificate: Neurotechnology & Interfaces</h3><p>Intro to brain–computer interfaces and neuroethics.</p></div>
+      </div>
+    </section>
+
+    <section id="research" style="margin-top:28px">
+      <h2>Research Centres</h2>
+      <div class="grid">
+        <div class="card"><h3>Centre for Renewable Energy Futures</h3><p>Wind, tidal and hydrogen research projects and industry tests.</p></div>
+        <div class="card"><h3>Institute for Cognitive Systems & AI</h3><p>Machine learning, robotics, and ethical governance research.</p></div>
+        <div class="card"><h3>Quantum Systems Lab</h3><p>Device engineering and algorithms for quantum hardware.</p></div>
+        <div class="card"><h3>BioDesign & Synthetic Biology Group</h3><p>Applied research in biotechnology with safety oversight.</p></div>
+      </div>
+    </section>
+
+    <section id="admissions" style="margin-top:28px">
+      <h2>Admissions Requirements</h2>
+      <p>General entry requirements vary by programme. Below are typical expectations.</p>
+      <table>
+        <tr><th>Level</th><th>Typical Requirements</th></tr>
+        <tr><td>Undergraduate (UK)</td><td>A-levels (or equivalent) — usually 3 A-levels including relevant subjects (e.g., Mathematics for computing). Personal statement and one academic reference.</td></tr>
+        <tr><td>Undergraduate (International)</td><td>Equivalent secondary qualification (e.g., IB Diploma). English language proficiency (see International section). Credential evaluation may be required.</td></tr>
+        <tr><td>Postgraduate (Taught)</td><td>Bachelor's degree in a relevant subject (2:1 or equivalent). For specialised courses (e.g., Quantum Computing), a strong mathematical background is usually required. One academic reference and a statement of purpose.</td></tr>
+        <tr><td>Research Degrees (MPhil/PhD)</td><td>Relevant postgraduate degree, research proposal, supervisor match, and academic references. Applicants may be invited to interview.</td></tr>
+      </table>
+
+      <h3>Additional Requirements for Advanced Programmes</h3>
+      <ul>
+        <li><strong>AI & Robotics</strong>: Demonstrable programming experience (Python/ROS), mathematics for machine learning.</li>
+        <li><strong>Quantum Computing</strong>: Undergraduate maths/physics background; prior coursework in linear algebra and algorithms recommended.</li>
+        <li><strong>Synthetic Biology</strong>: Prior lab experience and coursework in molecular biology recommended; applicants must agree to lab safety training.</li>
+        <li><strong>Cybersecurity</strong>: Prior computing experience and understanding of networks are advantageous.</li>
+      </ul>
+
+      <h3>Application Process</h3>
+      <ol>
+        <li>Submit online application via the Apply page.</li>
+        <li>Provide transcripts, references, and a personal statement.</li>
+        <li>Interview or technical assessment for some programmes.</li>
+        <li>Offer decision communicated by email.</li>
+      </ol>
+
+      <div class="card" style="margin-top:12px">
+        <h3 id="apply">Apply</h3>
+        <form action="#" onsubmit="alert('This application form is for classroom training only. Do not submit real personal data.'); return false;">
+          <label style="display:block;margin-bottom:8px">Full name<br><input required style="width:100%"></label>
+          <label style="display:block;margin-bottom:8px">Email<br><input type="email" required style="width:100%"></label>
+          <label style="display:block;margin-bottom:8px">Programme of interest<br><input style="width:100%"></label>
+          <label style="display:block;margin-bottom:8px">Country of residence<br><input style="width:100%"></label>
+          <button style="padding:8px 12px;border-radius:6px">Submit (Training)</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="international" style="margin-top:28px">
+      <h2>International Applicants — Important Clause</h2>
+      <p>International students are welcome. Applicants must:</p>
+      <ul>
+        <li>Hold a recognised secondary or higher education qualification equivalent to UK entry requirements.</li>
+        <li>Demonstrate English language proficiency (e.g., IELTS/TOEFL) where English is not the primary language of instruction.</li>
+        <li>Comply with UK immigration and visa regulations for study — the admissions materials provide guidance, but applicants should consult official government resources for exact requirements.</li>
+        <li>Provide credentials and academic transcripts (official translations where applicable).</li>
+        <li>Meet any programme-specific prerequisites. International applicants may be asked for proof of funding or to participate in pre-arrival orientation.</li>
+      </ul>
+      <p class="minor">Note: This site is a training resource. For real visa guidance, consult the official government website.</p>
+    </section>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center">
+        <div>© Windsmere University</div>
+        <div class="disclaimer">Training website used for educational purposes.</div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

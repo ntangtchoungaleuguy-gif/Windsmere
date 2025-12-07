@@ -1,0 +1,11 @@
+
+Faculty,Program,Level,Duration,Core modules
+Engineering,BSc Computer Science (Hons),Undergraduate,3 years,Programming;Data Structures;Algorithms
+Engineering,BSc AI & Ethics,Undergraduate,3 years,Machine Learning;Ethics;Human-Centred AI
+Science,MSc Quantum Computing,Postgraduate,1 year,Quantum Algorithms;Error Correction;Hardware Interfaces
+Engineering,MSc Autonomous Systems & Robotics,Postgraduate,1 year,Perception;Control;Embedded Systems
+Computing,BSc Cybersecurity & Digital Forensics,Undergraduate,3 years,Networks;Malware Analysis;Incident Response
+Science,BSc Synthetic Biology,Undergraduate,3 years,Molecular Biology;Lab Practice;Biodesign
+Computing,MSc Human-Robot Interaction,Postgraduate,1 year,UX for Robotics;Evaluation
+Engineering,Diploma Edge & Cloud Computing,Postgraduate,6 months,Distributed Systems;Edge Orchestration
+Science,Certificate Neurotechnology & Interfaces,Short,3 months,BCI Basics;Neuroethics

@@ -1,0 +1,8 @@
+
+Launch Guide (short) — Training deployment
+
+1. Host the package on a private GitHub Pages site, local server, or classroom LMS for student access.
+2. Ensure the footer note remains visible: 'Training website used for educational purposes.'
+3. Use the Apply form as a mock submission — do NOT collect real personal data.
+4. Replace SVG placeholders with real photos if you have rights to use them; otherwise retain placeholders for exercises.
+5. Use social captions for in-class social media content creation tasks; tag posts as training/demo in bios.
