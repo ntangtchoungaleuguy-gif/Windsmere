@@ -12,6 +12,6 @@ Files in this package:
 - courses.csv
 - admissions_requirements.txt
 - international_clause.txt
-- social_captions.txt
+- 
 - privacy_policy.txt
 - launch_guide.txt
